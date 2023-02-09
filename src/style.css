@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 346px;
+  margin: 20px auto;
+  background: #FFFFFF;
+  background: olive;
+  border: 1px solid #EBE3E3;
+  border-radius: 5px;
+}
+
+.main-title {
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.text-style {
+  margin: 20px;
+}
+
+.price-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-contant {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
