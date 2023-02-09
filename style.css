@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+
+}
+
+.block__card {
+    width: 380px;
+    height:346px;
+    border: 1px solid  #EBE3E3;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.first__sentence {
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 14px;
+    transform: translateY(-15px);
+}
+a {
+    color:blue
+}
+
+.second__sentence {
+    text-align: start;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color:  #1357DD;
+    width: 340px;
+    height: 40px;
+    color:white;
+    border:none;
+    margin: 20px auto;
+    
+}
+
+.mini__block {
+display: grid;
+grid-template-columns: repeat(2,2fr); 
+gap: 5px 0;  
+}
+
+.text__block--2 {
+    font-size: 18px;
+    text-align: end;
+    font-weight: 600;
+}
