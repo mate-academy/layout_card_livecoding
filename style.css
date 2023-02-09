@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 100px;
+  width: 400px;
+  border: 1px dashed blue;
+}
+
+.title {
+  margin: 30px auto 5px 20px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.sub-title {
+  display: block;
+  margin: 0 auto 0 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.description {
+  margin: 20px auto 0 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.info {
+  margin: 20px auto 0 20px;
+}
+
+.size {
+
+}
+
+.size__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.size__price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.range {
+margin: 0;
+}
+
+.range__text {
+margin: 0;
+}
+
+.range__price {
+margin: 0;
+}
+
+.date {
+
+}
+
+.date__text {
+
+}
+
+.date__value {
+
+}
+
+.button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+  height: 40px;
+  width: 340px;
+  background-color: #1357DD;;
+}
