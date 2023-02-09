@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.main__card {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.block__card {
+    width: 380px;
+    height:346px;
+    border: 1px solid  #EBE3E3;
+    s
+}
+
+.first__sentence {
+    margin-top: 30px;
+    margin-left:  20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 14px;
+}
+
+.link::before {
+    content: "Nasdaq:";
+    text-decoration: none;
+
+}
+
+.second__sentence {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: start;
+}
+
+.button {
+    font-size: 14px;
+    background-color:  #1357DD;
+    width: 340px;
+    height: 40px;
+    color:white;
+    border:none;
+}
+
