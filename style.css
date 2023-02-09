@@ -3,7 +3,8 @@ html {
 }
 
 body,
-h2 {
+h2,
+p {
   margin: 0;
 }
 
@@ -24,6 +25,7 @@ h2 {
   font-size: 18px;
   line-height: 150%;
   color: #000;
+  padding-bottom: 5px;
 }
 
 .together {
@@ -51,6 +53,7 @@ line-height: 17px;
   font-size: 14px;
   line-height: 150%;
   color: #000;
+  padding-bottom: 20px;
 }
 
 .block__for-3 {
@@ -60,16 +63,19 @@ line-height: 17px;
 .block1 {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5px;
 }
 
 .block2 {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5px;
 }
 
 .block3 {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5px;
 }
 
 .paragraph {
