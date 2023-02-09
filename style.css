@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card__provide {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.card__nas {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.card__values {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card__info {
+  justify-content: space-between;
+}
+
+.card__button {
+  background-color: #1357DD;
+  font-size: 14px;
+  line-height: 17px;
+  width: 340px;
+  height: 40px;
+}
+
+
+
