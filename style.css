@@ -1,0 +1,87 @@
+html {
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+
+    background-color: white;
+    padding: 30px 20px;
+    border: 1px solid #EBE3E3;
+    border-radius: 5px;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    border-bottom: 5px;
+}
+
+.second-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+    border-bottom: 20px;
+}
+
+.second {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.pricefirst {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.pricesecond {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.price-text {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* or 21px 
+
+/* Primary dark */
+
+color: #000000;
+margin-bottom: 5px;
+}
+
+.price-number {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    /* Primary dark */
+
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
