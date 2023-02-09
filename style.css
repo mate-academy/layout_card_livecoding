@@ -8,12 +8,14 @@ h2 {
 }
 
 .container {
-  width: 380px;
+  margin: 0 auto;
+  max-width: 380px;
   max-height: 100vh;
   background-color: #fff;
   border: 1px solid #EBE3E3;
   border-radius: 5px;
   padding: 0 20px;
+  margin-top: 200px;
 }
 
 .desc__title {
@@ -88,6 +90,7 @@ line-height: 17px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   width: 340px;
   height: 40px;
   background: #1357DD;
