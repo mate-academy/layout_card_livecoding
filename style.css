@@ -1,0 +1,99 @@
+body,
+h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 30px 20px;
+    /* gap: 20px; */
+    background: #FFFFFF;
+    border: 1px solid #EBE3E3;
+    border-radius: 5px;
+    width: 380px;
+    height: 346px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 46px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.title {
+    margin-bottom: 10px;
+    /* font-weight: 700;
+    font-size: 18px;
+    line-height: 150%; */
+}
+
+.container__nav {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.content__provide {
+    margin-bottom: 20px;
+}
+
+.dealSize {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+
+.value {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.price__value {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.data__value {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.priceRange {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.planned {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.planned {
+    margin-bottom: 20px;
+}
+
+.button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+    width: 340px;
+    height: 40px;
+    background: #1357DD;
+
+    border: transparent;
+}
+
+.button:hover {
+    background: white;
+    color: blue;
+    border: 1px solid blue;
+}
