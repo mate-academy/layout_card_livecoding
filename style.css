@@ -1,0 +1,65 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #000000;
+}
+
+.frame {
+  width: 380px;
+  height: 346px;
+  border: 1px solid  #ebe3e3;
+  border-radius: 5px;
+}
+
+.frame__container {
+  margin: 30px 20px;
+}
+
+.header {
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+}
+
+.header__nasdaq {
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+margin-bottom: 20px;
+}
+
+.header__link {
+color: #1357dd;
+}
+
+.section {
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info__name {
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+}
+
+.info__amount {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.button {
+  display: block;
+  width: 340px;
+  height: 276px;
+  background-color: #1357DD;;
+}
